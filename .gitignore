@@ -1,0 +1,24 @@
+# Xcode / build
+DerivedData/
+build/
+*.xcuserstate
+*.xcuserdatad/
+xcuserdata/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Generated project (regenerate with ./gen.sh)
+LePortail.xcodeproj/
+
+# macOS / misc
+.DS_Store
+*.swp
+
+# Secrets
+*.p8
+*.p12
+*.mobileprovision
+secrets*
