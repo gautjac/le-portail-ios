@@ -1,7 +1,7 @@
 # Le Portail — iOS
 
 The pocket gateway to **La Shop**: one Home Screen icon that opens into Jac's
-whole family of Atelier apps (~115 of them), with one-tap entry into every web
+whole family of Atelier apps (~131 of them), with one-tap entry into every web
 app, instant search, theme browsing, a daily delight, and a Home Screen widget.
 
 The iOS counterpart to the macOS menu-bar **Le Portail**. Native SwiftUI,
@@ -37,8 +37,12 @@ iOS 17+, iPhone + iPad. Bilingual (FR-first / EN).
 
 The catalog (`Sources/Shared/Catalog.swift`) is ported from the macOS Le
 Portail's source of truth and is compiled into **both** the app and the widget
-so the daily pick and data are identical. 115 apps:
-**94 web · 8 native iOS · 13 native macOS.**
+so the daily pick and data are identical. 131 apps:
+**110 web · 8 native iOS · 13 native macOS.**
+
+It stays lock-step with the macOS catalog via `le-portail/scripts/check-catalog-sync.py`,
+which fails the macOS build if the two ever drift on any app's slug, name,
+taglines, accent, category, or URL.
 
 ## Build
 

@@ -219,6 +219,12 @@ enum Catalog {
         AppEntry("le-tintamarre", "Le Tintamarre", "Composer et déclencher un tintamarre acadien (iOS).",
             "Compose and unleash an Acadian tintamarre (iOS).",
             .iOS, bundleID: "app.atelier.letintamarre", .music, "#E8612C"),
+        AppEntry("la-portee", "La Portée", "Déchiffrage musical : notes, armures, rythme, au micro.",
+            "Sight-reading: notes, key signatures, rhythm, by mic.",
+            web: "https://la-portee.netlify.app", .music, "#4A78B8"),
+        AppEntry("le-pupitre", "Le Pupitre", "Mappe ton nanoKONTROL, exporte un script Ableton Live.",
+            "Map your nanoKONTROL, export an Ableton Live script.",
+            web: "https://le-pupitre.netlify.app", .music, "#2F9E92"),
 
         // MARK: Cinéma & doc
         AppEntry("le-cadre", "Le Cadre", "Entraîneur de composition cinématographique.",
@@ -239,6 +245,15 @@ enum Catalog {
         AppEntry("film-grammar", "Film Grammar", "Langage du cinéma : schémas, prose, répétition espacée.",
             "Film language: diagrams, prose, spaced repetition.",
             web: "https://film-grammar.netlify.app", .film, "#C8A24A"),
+        AppEntry("l-imagier", "L'Imagier", "Table lumineuse du regard : capture, tags, moodboards.",
+            "A light table for your eye: capture, tag, moodboard.",
+            web: "https://l-imagier.netlify.app", .film, "#D9A34A"),
+        AppEntry("l-imprevu", "L'Imprévu", "Décris ton tournage : l'équipe sort ce qui va clocher, chiffré.",
+            "Describe your shoot; the crew flags what will go wrong, ranked.",
+            web: "https://l-imprevu.netlify.app", .film, "#D9683A"),
+        AppEntry("la-seance", "La Séance", "Visionnement lent : une scène par jour, plan par plan.",
+            "Slow watching: one scene a day, shot by shot.",
+            web: "https://la-seance.netlify.app", .film, "#4B5A78"),
 
         // MARK: Écriture & poésie
         AppEntry("le-metier", "Le Métier", "Abécédaire de la poésie, une forme par jour, scansion live.",
@@ -310,6 +325,12 @@ enum Catalog {
         AppEntry("le-bout-de-la-langue", "Le Bout de la langue", "Dictionnaire inversé natif (⌥⌘D) : Claude retrouve le mot sur le bout de la langue, FR↔EN.",
             "Native reverse dictionary (⌥⌘D): Claude finds the word on the tip of your tongue, FR↔EN.",
             .mac, bundleID: "app.atelier.botdelalangue", .writing, "#5A4FCF"),
+        AppEntry("la-marge", "La Marge", "Lire en répondant : une question socratique par section.",
+            "Read by answering: one Socratic question per section.",
+            web: "https://la-marge.netlify.app", .writing, "#3E5C8A"),
+        AppEntry("le-treteau", "Le Tréteau", "Dramaturgie théâtrale : bâtir une pièce scène par scène.",
+            "Stage-play dramaturgy: build a play scene by scene.",
+            web: "https://le-treteau.netlify.app", .writing, "#8A2E3E"),
 
         // MARK: BD & dessin
         AppEntry("planche", "Planche", "Scène → planche de BD + découpage de plans.",
@@ -336,6 +357,9 @@ enum Catalog {
         AppEntry("le-kaleidoscope", "Le Kaléidoscope", "Dessin à symétrie générative, comme un kaléidoscope.",
             "Generative-symmetry drawing toy.",
             web: "https://le-kaleidoscope.netlify.app", .comics, "#9B4DCA"),
+        AppEntry("le-revelateur", "Le Révélateur", "Studio d'images : pellicule, éclairage, médium.",
+            "Image studio: film stock, lighting, medium.",
+            web: "https://le-revelateur-app.netlify.app", .comics, "#C13A34"),
 
         // MARK: Délices du jour & local
         AppEntry("la-girouette", "La Girouette", "La météo avec une attitude, en acadien.",
@@ -401,6 +425,15 @@ enum Catalog {
         AppEntry("le-mentaliste", "Le Mentaliste", "Apprendre et exécuter du vrai mentalisme (iOS) : forces, équivoque, lecture à froid, hors ligne.",
             "Learn and perform real mentalism (iOS): forces, equivoque, cold reading, offline.",
             .iOS, bundleID: "app.atelier.lementaliste", .daily, "#6D4C9F"),
+        AppEntry("l-eloge", "L'Éloge", "La gratitude comme un métier, pas une case à cocher.",
+            "Gratitude as a craft, not a checkbox.",
+            web: "https://l-eloge.netlify.app", .daily, "#C99A3C"),
+        AppEntry("la-cartographie", "La Cartographie du Goût", "La carte de ce que tu aimes — et la chose juste au-delà.",
+            "A map of what you love — and the thing just beyond it.",
+            web: "https://la-cartographie.netlify.app", .daily, "#5A6FB0"),
+        AppEntry("la-faille", "La Faille", "Cinq affirmations, un seul mensonge : débusque-le.",
+            "Five confident claims, one lie: spot it.",
+            web: "https://la-faille.netlify.app", .daily, "#B7443E"),
 
         // MARK: Métiers & savoir-faire
         AppEntry("la-saignee", "La Saignée", "Traqueur d'abonnements — « le saignement ».",
@@ -451,6 +484,9 @@ enum Catalog {
         AppEntry("le-pochoir", "Le Pochoir", "Photo → pochoir deux tons prêt à découper, ponts garantis.",
             "Photo → cut-ready two-tone stencil, bridges guaranteed.",
             .mac, bundleID: "app.atelier.lepochoir", .craft, "#3A3A3A"),
+        AppEntry("le-couteau", "Le Couteau", "Atelier de peinture au couteau : le geste de l'empâtement.",
+            "Palette-knife oil painting: rehearse the impasto gesture.",
+            web: "https://le-couteau.netlify.app", .craft, "#C25A3A"),
 
         // MARK: Outils & natif
         AppEntry("prise", "Prise", "Pomodoro de la barre des menus, thème montage.",
@@ -516,6 +552,18 @@ enum Catalog {
         AppEntry("la-regie", "La Régie", "Orchestrer le contexte du Mac d'un raccourci : un « décor » lance les apps, règle l'audio, change le fond d'écran.",
             "Orchestrate your Mac's context from a hotkey: a \"scene\" launches apps, sets audio, swaps the wallpaper.",
             .mac, bundleID: "app.atelier.laregie", .tools, "#7A6A52"),
+        AppEntry("le-filon", "Le Filon", "Registre de dettes de savoir : mine, révise, ancre.",
+            "A ledger of knowledge-debts: mine, review, retain.",
+            web: "https://le-filon.netlify.app", .tools, "#BF9B3A"),
+        AppEntry("le-quart-dheure", "Le Quart d'Heure", "Une tâche qui rentre, pile, dans votre fenêtre de temps.",
+            "One banked task that fits the time you actually have.",
+            web: "https://le-quart-dheure.netlify.app", .tools, "#A98A46"),
+        AppEntry("le-repechage", "Le Repêchage", "Repêche tes signets X oubliés, enrichis par Opus.",
+            "Fish out forgotten X bookmarks, enriched by Opus.",
+            web: "https://le-repechage.netlify.app", .tools, "#3A6E9A"),
+        AppEntry("le-tremplin", "Le Tremplin", "Dessinez le niveau, sautez dedans.",
+            "Draw the level, then bounce through it.",
+            web: "https://le-tremplin.netlify.app", .tools, "#3BB558"),
     ]
 
     // MARK: Derived helpers
